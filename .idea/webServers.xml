@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="682d4c55-a372-433f-80de-832956783f56" name="MCTestDev" url="http://mctestdev.com/lil-smile-builder">
+        <fileTransfer host="mctestdev.com" port="21" password="dfdddf99dfc8dfc6df99dfd2df9bdf98df99" username="mcdevserver">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
