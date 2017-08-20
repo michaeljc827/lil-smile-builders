@@ -1,5 +1,8 @@
 <?php
-
+session_start();
+if (isset($_POST['submit'])) {
+	require_once('photo-upload.php');
+}
 
 ?>
 <!doctype html>
@@ -45,9 +48,9 @@
 		<div id="inner-column">
 		<h1>Patient Tagger</h1>
 		<h2>Step One: Upload Photo</h2>
-		<form action="/action_page.php">
-		  <input id="upload-btn" type="file" name="pic" accept="image/*">
-		  <input id="upload-submit-btn" type="submit" class="form-control" value="upload">
+		<form method="POST" enctype="multipart/form-data">
+		  <input id="upload-btn" type="file" name="patient" accept="image/*">
+		  <input id="upload-submit-btn" name="submit" type="submit" class="form-control" value="upload">
 		</form>
 		</div>
 	</div>
